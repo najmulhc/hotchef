@@ -9,7 +9,7 @@ import Register from "./Components/Register";
 function App() {
   return (
     <div className="App">
-      <Header></Header>
+      <Header></Header> <br /><br /><br /><br />
       <Routes>
         <Route path="/" element={<Home/>}></Route>
         <Route path="/login" element={<Login/>}></Route>
@@ -21,3 +21,4 @@ function App() {
 }
 
 export default App;
+

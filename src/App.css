@@ -12,6 +12,15 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+.text-choco{
+  color: #581200;
+}
+.bg-choco{
+  background-color: #581200;
+}
+.footer-bg{
+  background-color: #2B0700;
+}
 
 .App-header {
   background-color: #282c34;
