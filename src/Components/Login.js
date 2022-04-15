@@ -28,9 +28,9 @@ const Login = () => {
                 placeholder="Enter password"
               />
               <small className="text-gray-700 m-0 p-0 text-left">
-                Forgot your password?{" "}
-                <Link to="/" class="text-lal">
-                  Reset password
+                New to Hotchef?{" "}
+                <Link to="/register" class="text-lal">
+                  Regitster here
                 </Link>
               </small>
               <button

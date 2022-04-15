@@ -1,9 +1,13 @@
 import React, { useState } from "react";
+import { useAuthState } from "react-firebase-hooks/auth";
 import { Link } from "react-router-dom";
+import { auth } from "../firebase.init";
 import logo from "./img/logo.png";
 
 const Header = () => {
-    const [open, setOpen] = useState(true);
+    const [open, setOpen] = useState(false);
+    const [user]= useAuthState(auth);
+    console.log(user);
   return (
     <header className="shadow-md w-full fixed top-0 left-0  bg-white z-50">
      <div className="md:flex items-center md:justify-between  container md:mx-auto  py-4 ">
@@ -18,7 +22,7 @@ const Header = () => {
                  <Link to='/'>Home</Link>
              </li>
              <li className="md:ml-4 pl-4  md:my-0 my-4  ">
-                 <Link to='/login'>login</Link>
+                {user? <Link to='/ '>{user.displayName}</Link>: <Link to='/login'>login</Link>}
              </li>
              <li className="md:ml-4 pl-4  md:my-0 my-4  ">
                 <button className="rounded-full bg-choco text-white font-semibold px-8 py-2">Button</button>
