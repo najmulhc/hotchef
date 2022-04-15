@@ -9,7 +9,7 @@ import Register from "./Components/Register";
 function App() {
   return (
     <div className="App">
-      <Header></Header> <br /><br /><br /><br />
+      <Header></Header> 
       <Routes>
         <Route path="/" element={<Home/>}></Route>
         <Route path="/login" element={<Login/>}></Route>

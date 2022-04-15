@@ -5,7 +5,7 @@ import logo from "./img/logo.png";
 const Header = () => {
     const [open, setOpen] = useState(true);
   return (
-    <header className="shadow-md w-full fixed top-0 left-0  bg-white">
+    <header className="shadow-md w-full fixed top-0 left-0  bg-white z-50">
      <div className="md:flex items-center md:justify-between  container md:mx-auto  py-4 ">
          <div className="flex  items-center">
              <img src={logo} className='h-12 pl-8 md:pl-0' alt="" />
