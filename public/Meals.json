@@ -1,0 +1,130 @@
+[
+  {
+    "id": "bkf-eng",
+    "name": "English breakfast Platter",
+    "type": "breakfast",
+    "price": 34.99,
+    "description": "English breakfast is a dish that consists of a number of components such as back bacon, eggs, British sausage, baked beans, fried tomato, fried mushrooms, black pudding, and fried and toasted bread; however, these can vary depending on where you are in Great Britain.",
+    "img": "https://i.ibb.co/kMXX6Kd/breakfast1.png"
+  },
+  {
+    "id": "bkf-bhd",
+    "name": "Beef Hot-dog",
+    "type": "breakfast",
+    "price": 4.99,
+    "description": "A hot dog is a food consisting of a grilled or steamed sausage served in the slit of a partially sliced bun. The term hot dog can also refer to the sausage itself. The sausage used is a wiener or a frankfurter. The names of these sausages also commonly refer to their assembled dish",
+    "img": "https://i.ibb.co/zfDdzvV/breakfast3.png"
+  },
+  {
+    "id": "bkf-gvs",
+    "name": "Green seasonal veg salad",
+    "type": "breakfast",
+    "price": 9.99,
+    "description": "A salad is a dish consisting of mixed, mostly natural ingredients with at least one raw ingredient. They are often dressed, and typically served at room temperature or chilled, though some can be served warm",
+    "img": "https://i.ibb.co/dL6M6Qp/breakfast4.png"
+  },
+  {
+    "id": "bkf-hwo",
+    "name": "Ham with Omlette",
+    "type": "breakfast",
+    "price": 14.99,
+    "description": "Ham is pork from a leg cut that has been preserved by wet or dry curing, with or without smoking. As a processed meat, the term 'ham' includes both whole cuts of meat and ones that have been mechanically formed.",
+    "img": "https://i.ibb.co/QX3PNXV/breakfast6.png"
+  },
+  {
+    "id": "bkf-dws",
+    "name": "Cheese Sandwich",
+    "type": "breakfast",
+    "price": 1.99,
+    "description": "A sandwich is a food typically consisting of vegetables, sliced cheese or meat, placed on or between slices of bread, or more generally any dish wherein bread serves as a container or wrapper for another food type.",
+    "img": "https://i.ibb.co/n7SyRBf/breakfast5.png"
+  },
+  {
+    "id": "lnc-bsv",
+    "name": "Beef steak with vegitable",
+    "type": "lunch",
+    "price": 13.99,
+    "description": "A beefsteak, often called just steak, is a flat cut of beef with parallel faces, usually cut perpendicular to the muscle fibers. In common restaurant service a single serving has a raw mass ranging from 120 to 600 grams. Beef steaks are usually grilled, pan-fried, or broiled.",
+    "img": "https://i.ibb.co/qgShnBs/lunch1.png"
+  },
+  {
+    "id": "lnc-gck",
+    "name": "Grilled Chicken",
+    "type": "lunch",
+    "price": 4.99,
+    "description": "Barbecue chicken consists of chicken parts or entire chickens that are barbecued, grilled or smoked. There are many global and regional preparation techniques and cooking styles. Barbecue chicken is often seasoned or coated in a spice rub, barbecue sauce, or both.",
+    "img": "https://i.ibb.co/p1WDsBp/lunch2.png"
+  },
+  {
+    "id": "lnc-sks",
+    "name": "Smoaked Salmon",
+    "type": "lunch",
+    "price": 7.99,
+    "description": "Smoked salmon is a preparation of salmon, typically a fillet that has been cured and hot or cold smoked. Due to its moderately high price, smoked salmon is considered a delicacy. Although the term lox is sometimes applied to smoked salmon, they are different products",
+    "img": "https://i.ibb.co/zQhZb9M/lunch3.png"
+  },
+  {
+    "id": "lnc-idt",
+    "name": "Indian Thali",
+    "type": "lunch",
+    "price": 19.99,
+    "description": "Thali (meaning 'plate') or Bhojanam (meaning 'full meal') is a round platter used to serve food in South Asia, Southeast Asia and the Caribbean. Thali is also used to refer to an Indian-style meal made up of a selection of various dishes which are served on a platte",
+    "img": "https://i.ibb.co/fvmkC9T/lunch4.png"
+  },
+  {
+    "id": "lnc-fwc",
+    "name": "Fries with chicken",
+    "type": "lunch",
+    "price": 15.99,
+    "description": "French fries, chips, finger chips, french-fried potatoes, or simply fries, are batonnet or allumette-cut deep-fried potatoes. They are prepared by cutting potatoes into even strips, drying them, and frying them, usually in a deep fryer.",
+    "img": "https://i.ibb.co/qm8xbJC/lunch5.png"
+  },
+  {
+    "id": "lnc-cts",
+    "name": "Chicken Tariyaki souce",
+    "type": "lunch",
+    "price": 21.99,
+    "description": "Teriyaki Chicken isn't the healthiest depending on how it is prepared. Even though it can be a good source of protein, it can be high in calories, fat, and sodium. They can be made healthier with healthier ingredients and should be consumed in moderation.",
+    "img": "https://i.ibb.co/d21wXLC/lunch6.png"
+  },
+  {
+    "id": "dnr-cfr",
+    "name": "Chicken Fried Rice",
+    "type": "dinner",
+    "price": 13.99,
+    "description": "Fried rice is a dish of cooked rice that has been stir-fried in a wok or a frying pan and is usually mixed with other ingredients such as eggs, vegetables, seafood, or meat. It is often eaten by itself or as an accompaniment to another dish",
+    "img": "https://i.ibb.co/HpWsm91/dinner1.png"
+  },
+  {
+    "id": "dnr-fcs",
+    "name": "Cooked fish salad",
+    "type": "dinner",
+    "price": 18.99,
+    "description": "Many species of fish are caught by humans and consumed as food in virtually all regions around the world. Fish has been an important dietary source of protein and other nutrients throughout human history.",
+    "img": "https://i.ibb.co/6D81Zcy/dinner2.png"
+  },
+  {
+    "id": "dnr-ssh",
+    "name": "Japanese Sushi",
+    "type": "dinner",
+    "price": 44.99,
+    "description": "Sushi is a Japanese dish of prepared vinegared rice, usually with some sugar and salt, accompanied by a variety of ingredients, such as seafood, often raw, and vegetables. Styles of sushi and its presentation vary widely, but the one key ingredient is",
+    "img": "https://i.ibb.co/sKX9ntv/dinner3.png"
+  },
+  {
+    "id": "dnr-spt",
+    "name": "Spiced Pasta",
+    "type": "dinner",
+    "price": 21.99,
+    "description": "Pasta is a type of food typically made from an unleavened dough of wheat flour mixed with water or eggs, and formed into sheets or other shapes, then cooked by boiling or baking.Pasta is a type of food typically made from an ung.",
+    "img": "https://i.ibb.co/yfcrBMB/dinner4.png"
+  },
+  {
+    "id": "dnr-cjc",
+    "name": "Carrot Jouce",
+    "type": "dinner",
+    "price": 23.99,
+    "description": "Carrot juice has a particularly high content of β-carotene, a source of vitamin A, but it is also high in B complex vitamins like folate, and many minerals including calcium, copper, magnesium, potassium, phosphorus, and iron. A pound (454 g) of carrots will yield about a cup of juic",
+    "img": "https://i.ibb.co/kxjqmJj/dinner5.png"
+  }
+]
