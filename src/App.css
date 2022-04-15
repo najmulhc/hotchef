@@ -21,6 +21,15 @@
 .border-choco{
   border-color: #2B0700;
 }
+.text-lal{
+  color: #C10016;
+}
+.bg-lal{
+  background-color: #C10016;
+}
+.border-lal{
+  border-color: #C10016;
+}
 .footer-bg{
   background-color: #2B0700;
 }
