@@ -29,7 +29,7 @@ const Home = () => {
       <ul className="flex gap-16 justify-center items-center">
         <li><button  className="text-lal active:text-choco font-bold hover:underline pb-2 text-2xl " onClick={breakfast}>Breakfast</button></li>
         <li><button className="text-lal active:text-choco font-bold hover:underline pb-2 text-2xl " onClick={lunch}>Lunch</button></li>
-        <li><button className="text-lal active:text-choco font-bold hover:underline pb-2 text-2xl " onClick={dinner}>dinner</button></li>
+        <li><button className="text-lal active:text-choco font-bold hover:underline pb-2 text-2xl " onClick={dinner}>Dinner</button></li>
     
       </ul>
         <HomeMeals mealtype={mealType} />

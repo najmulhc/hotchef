@@ -8,6 +8,7 @@ import Register from "./Components/Register";
 import User from "./Components/User";
 import ProtectedRoute from "./Components/ProtectedRoute";
 import Meals from "./Components/Meals";
+import Mealtype from "./Components/Mealtype";
 
 function App() {
   return (
@@ -15,9 +16,9 @@ function App() {
       <Header></Header> 
       <Routes>
         <Route path="/" element={<Home/>}></Route>
-      
+        <Route path="/:mealType" element={<Mealtype/>} />
         <Route path="/login" element={<Login/>}></Route>
-        <Route path="/meals" element={<Meals/>}></Route>
+        <Route path="/meals" element={<ProtectedRoute><Meals/></ProtectedRoute>}></Route>
         <Route path="/user" element={<ProtectedRoute><User/></ProtectedRoute>}></Route>
         <Route path="/register" element={<Register/>}></Route>
       </Routes>

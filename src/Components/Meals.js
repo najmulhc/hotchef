@@ -10,7 +10,7 @@ const Meals = () => {
                 {
                     meals.map(meal =>{
                         return(
-                            <Meal meal={meal}/>
+                            <Meal meal={meal} key={meal.id}/>
                         )
                     })
                 }
