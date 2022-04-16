@@ -1,17 +1,19 @@
 import React, { useState } from "react";
 import { useAuthState} from "react-firebase-hooks/auth";
 import { signOut } from "firebase/auth";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { auth } from "../firebase.init";
 import logo from "./img/logo.png";
 
 const Header = () => {
     const [open, setOpen] = useState(false);
     const [user]= useAuthState(auth);
+    const navigate = useNavigate();
     console.log(user);
     const logOut = (event) => {
         event.preventDefault();
         signOut(auth);
+        navigate('/login')
     }
     if(user){
         console.log(user.displayName);
@@ -29,8 +31,11 @@ const Header = () => {
              <li className="md:ml-4 pl-4 md:my-0 my-4 ">
                  <Link to='/'>Home</Link>
              </li>
+             <li className="md:ml-4 pl-4 md:my-0 my-4 ">
+                 <Link to='/meals'>Meals</Link>
+             </li>
              <li className="md:ml-4 pl-4  md:my-0 my-4  ">
-                {user? <Link to='/ '>{user.displayName}</Link>: <Link to='/login'>login</Link>}
+                {user? <Link to='/user'>{user.displayName}</Link>: <Link to='/login'>login</Link>}
              </li>
            {user?  <li className="md:ml-4 pl-4  md:my-0 my-4  ">
                 <button className="rounded-full bg-choco text-white font-semibold px-8 py-2" onClick={logOut}>Sign Out</button>
