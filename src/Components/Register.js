@@ -42,14 +42,14 @@ const Register = () => {
                   type="text"
                   className="w-full border rounded-sm border-lal text-xl mb-3 p-2 "
                   placeholder="Enter your name"
-                  onBlur={(e)=> setDisplayName(e.target.value) }
+                  onChange={(e)=> setDisplayName(e.target.value) }
                   required
                 />
                 <input
                   type="email"
                   className="w-full border rounded-sm border-lal text-xl mb-3 p-2 "
                   placeholder="Enter email address"
-                  onBlur={(e)=> setEmail(e.target.value) }
+                  onChange={(e)=> setEmail(e.target.value) }
                   required
 
                 />
@@ -57,7 +57,7 @@ const Register = () => {
                   type="password"
                   className="w-full border rounded-sm border-lal text-xl mb-3 p-2 "
                   placeholder="Enter password"
-                  onBlur={(e)=> setPassword(e.target.value) }
+                  onChange={(e)=> setPassword(e.target.value) }
                   required
                 />
                 <small className="text-gray-700 m-0 p-0 text-left">
