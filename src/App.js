@@ -15,6 +15,7 @@ function App() {
       <Header></Header> 
       <Routes>
         <Route path="/" element={<Home/>}></Route>
+      
         <Route path="/login" element={<Login/>}></Route>
         <Route path="/meals" element={<Meals/>}></Route>
         <Route path="/user" element={<ProtectedRoute><User/></ProtectedRoute>}></Route>

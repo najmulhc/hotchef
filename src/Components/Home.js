@@ -1,6 +1,17 @@
-import React from "react";
+import React, { useState } from "react";
+import HomeMeals from "./HomeMeals";
 import bannerbg from "./img/banner.png";
 const Home = () => {
+  const [mealType , setMealType] = useState("breakfast");
+  const breakfast = () => {
+    setMealType("breakfast");
+  }
+  const lunch = () => {
+    setMealType('lunch');
+  }
+  const dinner = () => {
+    setMealType('dinner');
+  }
   return (
     <div className="mt-20">
       <div className="relative">
@@ -14,8 +25,15 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <h1 className="text-choco text-3xl font-medium text-center pt-4">Our dishes</h1>
-      <hr className="w-1/6 border border-choco mx-auto mb-3" />
+      <h1 className="text-choco text-6xl font-bold text-center pt-4 mb-8">Our dishes</h1> 
+      <ul className="flex gap-16 justify-center items-center">
+        <li><button  className="text-lal active:text-choco font-bold hover:underline pb-2 text-2xl " onClick={breakfast}>Breakfast</button></li>
+        <li><button className="text-lal active:text-choco font-bold hover:underline pb-2 text-2xl " onClick={lunch}>Lunch</button></li>
+        <li><button className="text-lal active:text-choco font-bold hover:underline pb-2 text-2xl " onClick={dinner}>dinner</button></li>
+    
+      </ul>
+        <HomeMeals mealtype={mealType} />
+     
     </div>
   );
 };
